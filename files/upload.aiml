@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+  <pattern>Generate a dress *</pattern>
+  <template>
+      <image>https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.craftymorning.com%2Fhow-to-draw-a-dress-easy-step-by-step-printable%2F&psig=AOvVaw3UlJKQDyLw6c7XaFhIwiDq&ust=1729698415989000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOj7pvCqookDFQAAAAAdAAAAABAE</image>
+  </template>
+</category>
+</aiml>

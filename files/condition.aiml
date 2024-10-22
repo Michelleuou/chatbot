@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+  <pattern>IS IT APPROPRIATE TO WEAR A *</pattern>
+  <template>
+    <think><set name = "clothing"><star /></set></think>
+      <condition name = "clothing" value = "dress">It is not appropriate for today's weather.</condition>
+      <condition name = "clothing" value = "sweatpants">It is appropriate for today's weather.</condition>
+      <condition name = "clothing" value = "raincoat">It is appropriate for today's weather.</condition>
+  
+   </template>
+</category>
+</aiml>
