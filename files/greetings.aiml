@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<aiml version="2.0">
-	<!-- insert your AIML categories here -->
-<category>
-<pattern>IS IT APPROPRIATE *</pattern>
-<template>It will not be appropriate for today's weather.</template>
-</category>
-</aiml>
