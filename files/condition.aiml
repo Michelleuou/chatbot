@@ -8,7 +8,18 @@
       <condition name = "clothing" value = "dress">It is not appropriate for today's weather.</condition>
       <condition name = "clothing" value = "sweatpants">It is appropriate for today's weather.</condition>
       <condition name = "clothing" value = "raincoat">It is appropriate for today's weather.</condition>
-  
+   </template>
+</category>
+
+
+<category>
+    <pattern>GENERATE AN IMAGE OF THIS *</pattern>
+      <template>
+    <think><set name = "clothing"><star /></set></think>
+      <condition name = "clothing" value = "dress"> <image>https://cdn.craftymorning.com/wp-content/uploads/2022/10/dress-drawing-how-to.jpg</image></condition>
+      <condition name = "clothing" value = "sweatpants"><image>https://mifland.com/cdn/shop/products/whitesweatpant_860x.jpg?v=1666409816</image></condition>
+      <condition name = "clothing" value = "raincoat"><image>https://thumb.ac-illust.com/f2/f2d3d9ce1bb119be9601555f1f4ec85a_t.jpeg</image></condition>
+     
    </template>
 </category>
 </aiml>
